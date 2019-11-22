@@ -97,33 +97,34 @@ html, body {
 .photo {
     position:absolute;
     left:50%;
-    margin-left:-25px;
-    top:40px;
-    width:50px;
-    height:50px;
+    margin-left:-40px;
+    top:60px;
+    width:80px;
+    height:80px;
     background-image:url("../JLQmiller.github.io/static/photo.jpg");
     background-size: 100% auto;
     border-radius: 50%;
 }
 
 .name{
-    color:rgba(255, 255, 255, 0.6);
+    color:rgba(255, 255, 255, 0.8);
     font-family: 华文楷体;
     position:absolute;
     width:100%;
-    top:100px;
+    top:150px;
     text-align: center;
     font-weight:bold ;
+    font-size: 30px;
 }
 
 .text{
-    color:rgba(255, 255, 255, 0.6);
+    color:rgba(255, 255, 255, 0.8);
     font-family: 华文楷体;
     position:absolute;
     width:100%;
-    top:130px;
+    top:200px;
     text-align: center;
-    font-size: small;
+    font-size: 25px;
 }
 .list{
     margin:50px;
@@ -131,14 +132,13 @@ html, body {
 }
 li{
     width:100%;
-    height:250px;
     display: flex;
     flex-direction: row;
     border-top: 3px solid #ccc;
 }
 li > img {
-    width:23%;
-    height:90%;
+    width:340px;
+    height:260px;
     padding: 10px;
 }
 .article-info{
@@ -147,24 +147,24 @@ li > img {
 .title{
     line-height: 40px;
     text-indent: 50px;
-    font-size: 40px;
+    font-size: 2em;
 }
 .time{
     line-height: 30px;
     text-indent: 50px;
-    font-size: 20px;
+    font-size: 1em;
     color:#ccc;
 }
 .description{
     margin-top: 20px;
     margin-left:50px;
-    line-height: 40px;
-    font-size: 25px;
+    line-height: 35px;
+    font-size: 1.3em;
     color: rgba(0,0,0,0.6);
 }
 .article-link{
-    position: absolute;
     margin-left:50px;
-    margin-bottom: 2px;
     text-decoration: none;
 }
+
+.clearfloat{clear:both;height:0;}

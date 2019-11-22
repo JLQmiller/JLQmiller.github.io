@@ -37,14 +37,13 @@ html, body {
     height: 100%;
     display: flex;
     flex-grow: 1;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
 }
 
 .right-stick {
     width: 80%;
-    margin: 10px 0 10px;
 }
 
 .right-stick-subtitle {
@@ -67,7 +66,7 @@ html, body {
 
 .user-info {
     width:100%;
-    height:50%;
+    height:300px;
     position:relative;
 }
 
@@ -101,4 +100,47 @@ html, body {
     top:130px;
     text-align: center;
     font-size: small;
+}
+.list{
+    margin:50px;
+    width:80%;
+}
+li{
+    width:100%;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid #ccc;
+}
+li > img {
+    width:23%;
+    height:90%;
+    padding: 10px;
+}
+.article-info{
+    padding: 10px;
+}
+.title{
+    line-height: 40px;
+    text-indent: 50px;
+    font-size: 40px;
+}
+.time{
+    line-height: 30px;
+    text-indent: 50px;
+    font-size: 20px;
+    color:#ccc;
+}
+.description{
+    margin-top: 20px;
+    margin-left:50px;
+    line-height: 40px;
+    font-size: 25px;
+    color: rgba(0,0,0,0.6);
+}
+.article-link{
+    position: absolute;
+    margin-left:50px;
+    margin-bottom: 2px;
+    text-decoration: none;
 }
